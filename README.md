@@ -30,4 +30,19 @@ Sim Agent
 Condition Filter
         ↓
 Telegram Channel
+```
 
+## Components
+| Component      | Role                                                       |
+| -------------- | ---------------------------------------------------------- |
+| RSS.app        | Converts X/Twitter profiles and RSS sources into feed URLs |
+| RSS.app Bundle | Combines multiple sources into one RSS feed                |
+| Sim            | Runs the workflow and agent logic                          |
+| Sim Agent      | Summarizes and classifies each incoming item               |
+| Sim Condition  | Sends only useful items further                            |
+| Telegram Bot   | Posts the final digest to a private Telegram channel       |
+
+
+## Safety
+
+Secrets are not stored in this repository.
