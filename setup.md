@@ -92,7 +92,7 @@ agent-prompt.md
 Send only items where Agent output contains:
 
 ```text
-Открывать ссылку: yes
+Open link: yes
 ```
 
 ## 10. Configure Telegram Send Message
